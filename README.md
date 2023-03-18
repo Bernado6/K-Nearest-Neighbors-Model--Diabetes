@@ -398,7 +398,7 @@ plt.ylabel("Accuracy")
 plt.show()
 ```
 
-![png](output_20_0.png)
+![png](Accuracy.png)
 
 We can observe above that we get maximum testing accuracy for k=9. So lets create a KNeighborsClassifier with number of neighbors as 9.
 
@@ -527,7 +527,7 @@ plt.title("KNN: ROC curve(n_neighbors=12)")
 plt.show()
 ```
 
-![png](output_33_0.png)
+![png](ROC.png)
 
 ## Area under ROC curve
 
