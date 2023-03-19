@@ -1,3 +1,13 @@
+# Diabetes K-Nearest Neighbors  Classification using Scikit-learn
+
+K-Nearest Neighbors (KNN) is a type of supervised learning algorithm that can be used for both regression and classification tasks. The main idea behind KNN is to classify or predict the target variable of a data point by finding the most similar data points in the training data, which are called its "nearest neighbors".
+
+Here's how the KNN algorithm works:
+
+1. Choose the number of nearest neighbors, k, that you want to consider.
+2. For each data point in the test set, find the k nearest neighbors in the training set based on some distance metric (e.g., Euclidean distance).
+3. For classification tasks, assign the majority class among the k nearest neighbors to the test data point. For regression tasks, take the average of the k nearest neighbors as the predicted value for the test data point.
+
 ## Importing the necessary packages
 
 ```python
