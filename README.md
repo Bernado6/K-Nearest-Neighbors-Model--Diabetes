@@ -583,13 +583,12 @@ param_grid={'n_neighbors';: array([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1
 ```python
 knn_cv.best_score_
 ```
-
-    0.7578558696205755
+`Best Score = 0.7578558696205755`
 
 ```python
 knn_cv.best_params_
 ```
 
-    {'n_neighbors': 14}
+`The best n_neighbors According to GridSearchCV = 14`
 
 Thus a knn classifier with number of neighbors as 14 achieves the best score/accuracy of 0.7578 i.e about 76%
